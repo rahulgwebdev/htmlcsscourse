@@ -38,20 +38,20 @@ body {
     position: relative;
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo-box .logo{
+.header__logo{
     height: 3.5rem;
 }
-.logo-box .logo:hover{
+.header__logo:hover{
     animation: moveInRight 1s ease-out;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -66,7 +66,7 @@ body {
     margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -76,7 +76,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -167,15 +167,15 @@ body {
     opacity: 0;
 }
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
