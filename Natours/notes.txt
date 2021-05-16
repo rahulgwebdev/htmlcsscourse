@@ -1,0 +1,15 @@
+Key notes
+*) bem
+*) mixins - resuable
+*) responsive images
+*) art direction
+*) density direction
+*) css
+*) backdrop
+*) backface-visibility
+*) clippath
+*) solid gradiants
+*) @support -> broswer support
+*) changing broswer select color 
+*) @content -> to pass content in css function
+*) @if -> condition
